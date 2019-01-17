@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a0718a11-7b62-4ff6-8c65-08164c5a3a8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+>>>>>>> 05cf4f46fe54e5fc79ee41ba01ad00236e277613
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,10 +185,31 @@
               <item name="CinemaSIte" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
             </path>
             <path>
               <item name="CinemaSIte" type="b2602c69:ProjectViewProjectNode" />
               <item name="CinemaSIte" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CinemaSIte" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CinemaSIte" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CinemaSIte" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CinemaSIte" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 05cf4f46fe54e5fc79ee41ba01ad00236e277613
+            </path>
+            <path>
+              <item name="CinemaSIte" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CinemaSIte" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -207,6 +233,8 @@
             <path>
               <item name="CinemaSIte" type="b2602c69:ProjectViewProjectNode" />
               <item name="CinemaSIte" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 05cf4f46fe54e5fc79ee41ba01ad00236e277613
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -250,7 +278,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="1054000" />
+=======
+    <option name="totallyTimeSpent" value="427000" />
+>>>>>>> 05cf4f46fe54e5fc79ee41ba01ad00236e277613
   </component>
   <component name="ToolWindowManager">
     <frame x="955" y="27" width="965" height="1053" extended-state="4" />
