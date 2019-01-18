@@ -31,6 +31,27 @@ class Actor
      */
     private $dateBirthday;
 
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\Movie", mappedBy="actor")
+     */
+    private $movies;
+
+    /**
+     * @return mixed
+     */
+    public function getMovies()
+    {
+        return $this->movies;
+    }
+
+    /**
+     * @param mixed $movies
+     */
+    public function setMovies($movies): void
+    {
+        $this->movies = $movies;
+    }
+
     public function getId(): ?int
     {
         return $this->id;

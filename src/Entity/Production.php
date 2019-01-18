@@ -21,6 +21,27 @@ class Production
      */
     private $name;
 
+    /**
+     * @ORM\OneToMany(targetEntity="App\Entity\Movie", mappedBy="production")
+     */
+    private $movies;
+
+    /**
+     * @return mixed
+     */
+    public function getMovies()
+    {
+        return $this->movies;
+    }
+
+    /**
+     * @param mixed $movies
+     */
+    public function setMovies($movies): void
+    {
+        $this->movies = $movies;
+    }
+
     public function getId(): ?int
     {
         return $this->id;

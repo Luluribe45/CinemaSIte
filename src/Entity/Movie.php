@@ -38,6 +38,21 @@ class Movie
      */
     private $synopsis;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Production", inversedBy="movies")
+     */
+    private $production;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\Genre", inversedBy="movies")
+     */
+    private $genre;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\Actor", inversedBy="movies")
+     */
+    private $actor;
+
     public function __construct()
     {
         $this->genre = new ArrayCollection();
